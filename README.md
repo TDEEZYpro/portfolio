@@ -3,7 +3,6 @@
 <div align="center">
 
 ![Portfolio](https://img.shields.io/badge/Full%20Stack-Developer-00D9FF?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Available-39FF14?style=for-the-badge)
 
 [**🌐 Live Demo**](https://nkosinathi.dev) • [**📧 Contact**](mailto:nkosinathi@mnguni.dev) • [**💼 LinkedIn**](https://linkedin.com/in/nkosinathi-mnguni)
 
