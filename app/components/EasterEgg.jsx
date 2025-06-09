@@ -1,38 +1,54 @@
 'use client'
 
-import { useEffect, useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const EasterEgg = () => {
-  const [showEasterEgg, setShowEasterEgg] = useState(false)
-  const [konamiCode, setKonamiCode] = useState([])
-  const correctSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a']
+  const [showEasterEgg, setShowEasterEgg] = useState(false);
+  const [keySequence, setKeySequence] = useState([]);
+  const timeoutRef = useRef(null);
+
+  const konamiCode = [
+    'ArrowUp', 'ArrowUp',
+    'ArrowDown', 'ArrowDown',
+    'ArrowLeft', 'ArrowRight',
+    'ArrowLeft', 'ArrowRight',
+    'b', 'a'
+  ];
 
   useEffect(() => {
-    const handleKeyPress = (e) => {
-      const key = e.key.toLowerCase()
-      const newSequence = [...konamiCode, key].slice(-10)
-      setKonamiCode(newSequence)
+    const handleKeyDown = (e) => {
+      // Clear previous timeout
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+      
+      // Reset sequence if too much time passes between keys
+      timeoutRef.current = setTimeout(() => {
+        setKeySequence([]);
+      }, 2000);
 
-      if (JSON.stringify(newSequence) === JSON.stringify(correctSequence)) {
-        setShowEasterEgg(true)
-        setKonamiCode([])
-        
-        // Auto-hide after 10 seconds
-        setTimeout(() => setShowEasterEgg(false), 10000)
+      const newSequence = [...keySequence, e.key].slice(-konamiCode.length);
+      setKeySequence(newSequence);
+
+      if (newSequence.join('') === konamiCode.join('')) {
+        setShowEasterEgg(true);
+        setKeySequence([]);
+        setTimeout(() => setShowEasterEgg(false), 10000);
       }
-    }
+    };
 
-    window.addEventListener('keydown', handleKeyPress)
-    return () => window.removeEventListener('keydown', handleKeyPress)
-  }, [konamiCode])
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      if (timeoutRef.current) clearTimeout(timeoutRef.current);
+    };
+  }, [keySequence]);
 
   const achievements = [
     { icon: '🏆', title: 'Code Master', desc: 'You found the secret!' },
     { icon: '🚀', title: 'Easter Egg Hunter', desc: '+100 Developer Points' },
     { icon: '🎮', title: 'Konami Legend', desc: 'Achievement Unlocked!' },
     { icon: '💎', title: 'Hidden Gem', desc: 'Welcome to the club!' },
-  ]
+  ];
 
   return (
     <AnimatePresence>
@@ -106,8 +122,8 @@ const EasterEgg = () => {
                 </motion.div>
 
                 <p className="text-gray-300 mb-4">
-                  Congratulations! You&apos;ve discovered the secret easter egg. 
-                  You&apos;re clearly someone who pays attention to details!
+                  Congratulations! You've discovered the secret easter egg. 
+                  You're clearly someone who pays attention to details!
                 </p>
 
                 <div className="flex items-center justify-center gap-2 text-sm text-gray-400">
@@ -160,7 +176,7 @@ const EasterEgg = () => {
         </>
       )}
     </AnimatePresence>
-  )
-}
+  );
+};
 
-export default EasterEgg
+export default EasterEgg;

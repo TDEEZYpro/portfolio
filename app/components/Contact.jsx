@@ -219,7 +219,7 @@ const Contact = () => {
               </div>
 
               {/* Availability Status */}
-              <motion.div
+              {/* <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={inView ? { opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.6, delay: 0.8 }}
@@ -232,7 +232,7 @@ const Contact = () => {
                 <p className="text-gray-400 text-sm">
                   Currently open to new challenges and exciting projects.
                 </p>
-              </motion.div>
+              </motion.div> */}
             </motion.div>
           </div>
         </motion.div>

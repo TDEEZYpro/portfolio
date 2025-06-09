@@ -14,14 +14,13 @@ import EasterEgg from './components/EasterEgg'
 import LoadingScreen from './components/LoadingScreen'
 
 export default function Home() {
-  const [loading, setLoading] = useState(true)
-  const [showMatrix, setShowMatrix] = useState(false)
+  const [loading, setLoading] = useState(true);
+  const [showMatrix, setShowMatrix] = useState(false);
 
   useEffect(() => {
-    // Simulate loading
-    const timer = setTimeout(() => setLoading(false), 2000)
-    return () => clearTimeout(timer)
-  }, [])
+    const timer = setTimeout(() => setLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="min-h-screen overflow-x-hidden">
@@ -40,10 +39,10 @@ export default function Home() {
               <Experience />
               <Contact />
             </main>
-            <EasterEgg />
+            <EasterEgg key="easter-egg" />
           </>
         )}
       </AnimatePresence>
     </div>
-  )
+  );
 }
