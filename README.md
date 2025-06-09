@@ -4,7 +4,7 @@
 
 ![Portfolio](https://img.shields.io/badge/Full%20Stack-Developer-00D9FF?style=for-the-badge)
 
-[**🌐 Live Demo**](https://nkosinathi.dev) • [**📧 Contact**](mailto:nkosinathi@mnguni.dev) • [**💼 LinkedIn**](https://linkedin.com/in/nkosinathi-mnguni)
+[**🌐 Live Demo**](https://mnguni.dev) • [**📧 Contact**](mailto:nkosinathi@mnguni.dev) • [**💼 LinkedIn**](https://linkedin.com/in/nkosinathi-mnguni-dev)
 
 </div>
 
@@ -26,19 +26,6 @@ A futuristic portfolio showcasing my journey as a Full Stack Developer and Team 
 **Backend:** Node.js, Express, RESTful APIs  
 **Database:** Firebase, MySQL, Oracle  
 **Tools:** Git, Jira, VS Code, Vercel
-
-## 🚀 Quick Start
-
-```bash
-# Clone repo
-git clone https://github.com/nkosinathi-mnguni/portfolio.git
-
-# Install dependencies
-cd portfolio && npm install
-
-# Run development server
-npm run dev
-```
 
 ## 📂 Structure
 
@@ -62,14 +49,13 @@ portfolio/
 ## 📫 Contact
 
 - **Email:** nkosinathi@mnguni.dev
-- **Phone:** 076 075 3866
-- **GitHub:** [@nkosinathi-mnguni](https://github.com/nkosinathi-mnguni)
-- **LinkedIn:** [/in/nkosinathi-mnguni](https://linkedin.com/in/nkosinathi-mnguni)
+- **GitHub:** [@nkosinathi-mnguni](https://github.com/TDEEZYpro)
+- **LinkedIn:** [/in/nkosinathi-mnguni](https://linkedin.com/in/nkosinathi-mnguni-dev)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ using Next.js and Tailwind CSS**
+**Built with Passion and Planning to build More**
 
 </div>
