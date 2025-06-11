@@ -87,7 +87,7 @@ const Contact = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl font-display font-bold text-center mb-12">
-            <span className="gradient-text">Get In Touch</span>
+            <span className="gradient-text">Get In Touch</span> 
           </h2>
 
           {/* <div className="grid md:grid-cols-2 gap-12"> */}
