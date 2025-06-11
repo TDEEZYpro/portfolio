@@ -90,9 +90,10 @@ const Contact = () => {
             <span className="gradient-text">Get In Touch</span>
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12">
+          {/* <div className="grid md:grid-cols-2 gap-12"> */}
+           <div className="max-w-3xl mx-auto space-y-12">
             {/* Contact Form */}
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -178,7 +179,7 @@ const Contact = () => {
                   </motion.div>
                 )}
               </form>
-            </motion.div>
+            </motion.div> */}
 
             {/* Contact Info */}
             <motion.div

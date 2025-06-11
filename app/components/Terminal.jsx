@@ -60,9 +60,9 @@ const Terminal = ({ onMatrixToggle }) => {
       { type: 'output', content: 'Contact Information:' },
       { type: 'output', content: '─────────────────────────────────────' },
       { type: 'output', content: 'Email:    nkosinathi@mnguni.dev' },
-      { type: 'output', content: 'Phone:    076 075 3866' },
-      { type: 'output', content: 'LinkedIn: /in/nkosinathi-mnguni' },
-      { type: 'output', content: 'GitHub:   /nkosinathi-mnguni' },
+      { type: 'output', content: 'Phone:    +27 76 075 3866' },
+      { type: 'output', content: 'LinkedIn: /in/nkosinathi-mnguni-dev' },
+      { type: 'output', content: 'GitHub:   /TDEEZYpro' },
     ],
     projects: () => [
       { type: 'output', content: 'Recent Projects:' },

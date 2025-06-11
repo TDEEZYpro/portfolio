@@ -207,7 +207,7 @@ const Hero = () => {
         {/* Scroll Indicator */}
         <motion.div
           variants={itemVariants}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+          className="absolute sm:bottom-[60px] bottom-[130px] left-[49%] transform -translate-x-[60%]"
         >
           <motion.div
             animate={{ y: [0, 10, 0] }}

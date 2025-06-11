@@ -21,6 +21,17 @@ export default function Home() {
     const timer = setTimeout(() => setLoading(false), 2000);
     return () => clearTimeout(timer);
   }, []);
+  
+  useEffect(() => {
+  const favicon = document.querySelector("link[rel='icon']");
+  const frames = ['/favicon.ico'];
+  let current = 0;
+  
+  setInterval(() => {
+    current = (current + 1) % frames.length;
+    favicon.href = frames[current];
+  }, 1000);
+}, []);
 
   return (
     <div className="min-h-screen overflow-x-hidden">
