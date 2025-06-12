@@ -75,7 +75,7 @@ export default function RootLayout({ children }) {
               // Console Easter Egg
               console.log('%c👋 Hey there, fellow developer!', 'font-size: 24px; font-weight: bold; color: #00D9FF;');
               console.log('%cLooking for the source code? You can find me on GitHub!', 'font-size: 14px; color: #BD00FF;');
-              console.log('%chttps://github.com/nkosinathi-mnguni', 'font-size: 12px; color: #FF006E;');
+              console.log('%chttps://github.com/TDEEZYpro/portfolio', 'font-size: 12px; color: #FF006E;');
               console.log('%c💡 Pro tip: Try the Konami code on the website! ⬆️⬆️⬇️⬇️⬅️➡️⬅️➡️BA', 'font-size: 12px; color: #39FF14;');
             `,
           }}

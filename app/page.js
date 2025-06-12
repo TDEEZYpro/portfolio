@@ -1,5 +1,6 @@
 'use client'
-
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useEffect } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import Navigation from './components/Navigation'
@@ -35,6 +36,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen overflow-x-hidden">
+      <Analytics />
+      <SpeedInsights />
       <AnimatePresence mode="wait">
         {loading ? (
           <LoadingScreen key="loader" />
