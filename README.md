@@ -15,6 +15,7 @@ A futuristic portfolio showcasing my journey as a Full Stack Developer and Team 
 ## ✨ Key Features
 
 - 💻 **Interactive Terminal** - Try `help`, `about`, or `sudo hire me`
+- 🤖 **AI Portfolio Assistant** - Chatbot powered by OpenRouter that answers questions about the portfolio
 - 📊 **Animated Skills Visualization** - Dynamic radar chart
 - 🎮 **Easter Eggs** - Konami Code: `↑↑↓↓←→←→BA`
 - 🌊 **Matrix Rain Effect** - Toggle via terminal
@@ -32,12 +33,34 @@ A futuristic portfolio showcasing my journey as a Full Stack Developer and Team 
 ```
 portfolio/
 ├── app/
-│   ├── components/     # React components
+│   ├── api/chat/      # OpenRouter chat API route
+│   ├── components/    # React components
+│   ├── lib/           # Portfolio context & rate limiter
 │   ├── layout.js      # Root layout
 │   └── page.js        # Home page
 ├── public/            # Static assets
 └── package.json       # Dependencies
 ```
+
+## ⚙️ Setup
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Create a `.env.local` file from the example and add your OpenRouter API key:
+   ```bash
+   cp .env.local.example .env.local
+   ```
+   Get your key at [https://openrouter.ai/keys](https://openrouter.ai/keys).
+   
+   `.env.local` and `.env` are both gitignored and will be loaded by Next.js.
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
 ## 🎯 Featured Projects
 

@@ -13,6 +13,7 @@ import Contact from './components/Contact'
 import MatrixRain from './components/MatrixRain'
 import EasterEgg from './components/EasterEgg'
 import LoadingScreen from './components/LoadingScreen'
+import ChatWidget from './components/ChatWidget'
 
 export default function Home() {
   const [loading, setLoading] = useState(true);
@@ -54,6 +55,7 @@ export default function Home() {
               <Contact />
             </main>
             <EasterEgg key="easter-egg" />
+            <ChatWidget />
           </>
         )}
       </AnimatePresence>
