@@ -8,6 +8,20 @@ const Experience = () => {
 
   const experiences = [
     {
+      role: 'Full Stack Application Developer',
+      company: 'Online Education Services',
+      period: 'August 2025 - Present',
+      description: 'Feature development on a large learning platform',
+      achievements: [
+        'Ran the Node 20 → 24 upgrade across web, infrastructure, and API layers of three platforms',
+        'Expanded Vitest/Jest test coverage, including OAuth2 mocking',
+        'Works with a cross-timezone team on trunk-based development',
+        'Uses Jenkins, Bitbucket Pipelines, SonarQube, and Docker in daily workflows'
+      ],
+      tech: ['Svelte', 'SvelteKit', 'Node.js', 'TypeScript', 'Docker', 'Vitest'],
+      color: 'from-primary to-blue-500',
+    },
+    {
       role: 'Team Leader & Intermediate Software Developer',
       company: 'Land and Sea Shipping',
       period: 'October 2024 - Present',
@@ -55,7 +69,7 @@ const Experience = () => {
   ]
 
   const stats = [
-    { value: '2+', label: 'Years Experience' },
+    { value: '3+', label: 'Years Experience' },
     { value: '3000+', label: 'Users Served' },
     { value: '4+', label: 'Projects Delivered' },
     { value: '4+', label: 'Team Members Led' },
@@ -197,6 +211,13 @@ const Experience = () => {
                 className="px-4 py-2 glass rounded-full text-sm font-mono border border-primary"
               >
                 Team Leader
+              </motion.div>
+              <span className="text-primary">→</span>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                className="px-4 py-2 glass rounded-full text-sm font-mono border border-primary"
+              >
+                Full Stack Application Developer
               </motion.div>
             </div>
             <p className="text-gray-400 mt-4 text-sm">

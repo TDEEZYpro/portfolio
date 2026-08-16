@@ -177,9 +177,7 @@ const Hero = () => {
           variants={itemVariants}
           className="text-gray-300 max-w-2xl mx-auto mb-12 text-sm md:text-base"
         >
-          Tech lead and developer who loves building things that matter. 
-          Passionate about clean code, modern tech stacks, and creating 
-          exceptional user experiences.
+          Full Stack developer who loves building things that matter. In three years, I&apos;ve gone from writing code to leading teams that deliver applications to thousands of users. I get excited about clean code, new tech, and solving tough problems. Recently led a team in modernizing our stack with React and Node.js, which cut our deployment headaches in half and made our users happier. Always learning and pushing myself to grow, whether it&apos;s diving into new frameworks or finding better ways to mentor the team with new implementations and technology trends.
         </motion.p>
 
         <motion.div

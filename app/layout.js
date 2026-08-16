@@ -14,9 +14,9 @@ const firaCode = Fira_Code({
 });
 
 export const metadata = {
-  title: "Nkosinathi Mnguni | Full Stack Developer & Team Leader",
+  title: "Nkosinathi Mnguni | Full Stack Developer",
   description:
-    "Tech lead and developer who loves building things that matter. Passionate about clean code, modern tech stacks, and creating exceptional user experiences.",
+    "Full Stack developer who loves building things that matter. In three years, I've gone from writing code to leading teams that deliver applications to thousands of users. Passionate about clean code, new tech, and solving tough problems.",
   keywords: [
     "Nkosinathi Mnguni",
     "Full Stack Developer",
@@ -24,7 +24,7 @@ export const metadata = {
     "Node.js",
     "Team Leader",
     "Software Engineer",
-    "Johannesburg",
+    "Cape Town",
   ],
   authors: [{ name: "Nkosinathi Mnguni" }],
   creator: "Nkosinathi Mnguni",
@@ -33,7 +33,7 @@ export const metadata = {
   openGraph: {
     title: "Nkosinathi Mnguni - Full Stack Developer",
     description:
-      "Tech lead and developer who loves building things that matter. Passionate about clean code and modern tech stacks.",
+      "Full Stack developer who loves building things that matter. In three years, I've gone from writing code to leading teams that deliver applications to thousands of users.",
     url: "https://mnguni.dev",
     siteName: "Nkosinathi Mnguni Portfolio",
     locale: "en_US",
@@ -43,7 +43,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Nkosinathi Mnguni - Full Stack Developer",
     description:
-      "Tech lead and developer who loves building things that matter.",
+      "Full Stack developer who loves building things that matter. In three years, I've gone from writing code to leading teams that deliver applications to thousands of users.",
     images: ["/nm-logo.png"],
   },
   robots: {
