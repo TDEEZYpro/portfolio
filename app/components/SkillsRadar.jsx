@@ -28,7 +28,7 @@ const SkillsRadar = () => {
   const [animatedData, setAnimatedData] = useState([0, 0, 0, 0, 0, 0, 0, 0])
 
   const skills = {
-    labels: ['React/Next.js', 'Node.js', 'React Native', 'Firebase', 'SQL/NoSQL', 'Team Leadership', 'System Design', 'API Development'],
+    labels: ['React/Next.js', 'Svelte/SvelteKit', 'Node.js', 'TypeScript', 'React Native', 'Firebase', 'SQL/NoSQL', 'DevOps/CI-CD'],
     datasets: [
       {
         label: 'Skill Level',
@@ -44,7 +44,7 @@ const SkillsRadar = () => {
     ],
   }
 
-  const targetData = [95, 85, 90, 88, 85, 92, 80, 90]
+  const targetData = [95, 85, 90, 88, 90, 88, 85, 82]
 
   useEffect(() => {
     if (inView) {

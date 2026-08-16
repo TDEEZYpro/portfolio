@@ -69,7 +69,7 @@ const Experience = () => {
   ]
 
   const stats = [
-    { value: '2+', label: 'Years Experience' },
+    { value: '3+', label: 'Years Experience' },
     { value: '3000+', label: 'Users Served' },
     { value: '4+', label: 'Projects Delivered' },
     { value: '4+', label: 'Team Members Led' },

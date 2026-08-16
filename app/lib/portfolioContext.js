@@ -31,7 +31,7 @@ EDUCATION
   - Most Resourceful Junior Award
 
 TECHNICAL SKILLS
-Skill radar labels with approximate proficiency: React/Next.js (95%), Node.js (85%), React Native (90%), Firebase (88%), SQL/NoSQL (85%), Team Leadership (92%), System Design (80%), API Development (90%). Overall proficiency shown as 92%.
+Skill radar labels with approximate proficiency: React/Next.js (95%), Svelte/SvelteKit (85%), Node.js (90%), TypeScript (88%), React Native (90%), Firebase (88%), SQL/NoSQL (85%), DevOps/CI-CD (82%). Overall proficiency shown as 92%.
 
 Skill categories:
 - Frontend: React.js, React Native/Expo, Next.js, Svelte/SvelteKit, HTML5, CSS3, Tailwind CSS
