@@ -212,6 +212,13 @@ const Experience = () => {
               >
                 Team Leader
               </motion.div>
+              <span className="text-primary">→</span>
+              <motion.div
+                whileHover={{ scale: 1.1 }}
+                className="px-4 py-2 glass rounded-full text-sm font-mono border border-primary"
+              >
+                Full Stack Application Developer
+              </motion.div>
             </div>
             <p className="text-gray-400 mt-4 text-sm">
               Rapid progression through dedication and continuous learning
