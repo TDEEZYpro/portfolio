@@ -42,9 +42,18 @@ Skill categories:
 - Cloud: Google Cloud, Vercel
 - Soft skills: Leadership, Communication, Problem Solving, Mentorship, Adaptability, Team Collaboration
 
-WORK EXPERIENCE (all at Land and Sea Shipping)
+WORK EXPERIENCE
 
-1. Team Leader & Intermediate Software Developer (October 2024 - Present)
+1. Full Stack Application Developer at Online Education Services (August 2025 - Present)
+   - Feature development on a large learning platform
+   - Achievements:
+     - Ran the Node 20 → 24 upgrade across web, infrastructure, and API layers of three platforms
+     - Expanded Vitest/Jest test coverage, including OAuth2 mocking
+     - Works with a cross-timezone team on trunk-based development
+     - Uses Jenkins, Bitbucket Pipelines, SonarQube, and Docker in daily workflows
+   - Technologies: Svelte, SvelteKit, Node.js, TypeScript, Docker, Vitest
+
+2. Team Leader & Intermediate Software Developer at Land and Sea Shipping (October 2024 - Present)
    - Leading development teams and architecting full-stack solutions
    - Achievements:
      - Architected full-stack applications handling thousands of users
@@ -54,7 +63,7 @@ WORK EXPERIENCE (all at Land and Sea Shipping)
      - Developed end-to-end ticketing and donation system
    - Technologies: React.js, Node.js, React Native, Next.js, Firebase
 
-2. Intermediate Software Engineer (April 2024 - October 2024)
+3. Intermediate Software Engineer (April 2024 - October 2024)
    - Spearheaded development of key platform features
    - Achievements:
      - Implemented robust error handling and logging systems
