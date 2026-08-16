@@ -108,22 +108,22 @@ const SkillsRadar = () => {
   const skillCategories = [
     {
       title: 'Frontend',
-      skills: ['React.js', 'Next.js', 'React Native', 'Tailwind CSS', 'HTML5/CSS3'],
+      skills: ['React.js', 'React Native/Expo', 'Next.js', 'Svelte/SvelteKit', 'HTML5/CSS3', 'Tailwind CSS'],
       color: 'from-primary to-blue-500',
     },
     {
       title: 'Backend',
-      skills: ['Node.js', 'RESTful APIs', 'Firebase', 'Java', 'C++'],
+      skills: ['Node.js', 'TypeScript', 'Python', 'RESTful APIs', 'Java', 'C++'],
       color: 'from-secondary to-purple-500',
     },
     {
       title: 'Database',
-      skills: ['Firebase', 'Oracle SQL', 'MySQL', 'NoSQL', 'MS Access'],
+      skills: ['Firebase', 'Oracle SQL', 'SQLServer', 'MySQL', 'PostgreSQL', 'MS Access'],
       color: 'from-accent to-pink-500',
     },
     {
-      title: 'Tools & Other',
-      skills: ['Git/GitHub', 'Jira', 'VS Code', 'Google Cloud', 'Agile'],
+      title: 'Cloud & DevOps',
+      skills: ['AWS', 'Google Cloud', 'Vercel', 'Jenkins', 'Bitbucket Pipelines', 'Docker'],
       color: 'from-green-400 to-teal-500',
     },
   ]
@@ -198,7 +198,7 @@ const SkillsRadar = () => {
           >
             <h3 className="text-2xl font-bold mb-8 text-primary">Soft Skills</h3>
             <div className="flex flex-wrap justify-center gap-4">
-              {['Leadership', 'Communication', 'Problem Solving', 'Mentorship', 'Adaptability', 'Team Collaboration'].map((skill, index) => (
+              {['Communication', 'Collaboration & Teamwork', 'Problem-Solving & Strategic Thinking', 'Adaptability', 'Time Management', 'Critical Thinking', 'Accountability', 'Conflict Resolution', 'Curiosity & Continuous Learning', 'Leadership', 'Mentorship', 'Decision-Making', 'Technical Communication', 'Resilience'].map((skill, index) => (
                 <motion.div
                   key={skill}
                   whileHover={{ scale: 1.05, rotate: Math.random() * 10 - 5 }}
